@@ -60,7 +60,7 @@ matrix:
       python: "2.7"
       env: controller="localhost:8080//"
       install:
-      - sudo pip install flask requests==2.22.0 pyOpenssl==17.4.0 cryptography
+      - sudo pip install flask
       - export GOPATH=/home/travis/gopath
       - export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
       - go env
